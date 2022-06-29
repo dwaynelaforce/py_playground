@@ -1,0 +1,5292 @@
+{
+  "/IBSDP/v2/accounts/AcctNbr/certificates-of-deposit": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/payoff": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/remarks/CIApplCde/CIApplNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CIApplNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CIApplNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/remarks": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/remarks/CIApplCde/CIApplNbr/CIRmrkEffDte/CIRmrkPrcsTme/CIRmrkEffTme": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "CIApplNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/search/name-address": {
+    "GET": {
+      "query_params": [
+        "CICustNbrToStrtSearch",
+        "CICustNme"
+      ],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/customers/search/taxnbr": {
+    "GET": {
+      "query_params": [
+        "CIKeySSN",
+        "CICustNbrToStrtSearch"
+      ],
+      "path_params": []
+    }
+  },
+  "/IBSDP/v2/accounts/AcctNbr/balances": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/CICustNbr/statements": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CICustNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/AcctNbr/certificates-of-deposit/TDId/renegotiation": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/collateral/SeqNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/collateral": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/CICustNbr/related-accounts": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CICustNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/CIApplNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CIApplNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "CIApplNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/AcctNbr/transactions": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/CIApplNbr/addresses": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CIApplNbr"
+      ]
+    }
+  },
+  "/IBSFM/v2/immediate-transfers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSFM/v2/maintenance-history": {
+    "GET": {
+      "query_params": [
+        "FAcctNbr",
+        "FSubApplNbr"
+      ],
+      "path_params": []
+    }
+  },
+  "/IBSFM/v2/scheduled-transfers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSFM/v2/scheduled-transfers/SysCde/SndAcctNbr/SeqNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "SndAcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "SndAcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "SndAcctNbr"
+      ]
+    }
+  },
+  "/IBSFM/v3/scheduled-transfers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSFM/v3/scheduled-transfers/SysCde/SndAcctNbr/SeqNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "SndAcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "SndAcctNbr"
+      ]
+    }
+  },
+  "/IBSFM/v3/scheduled-transfers/TrgtSysCde/SndAcctNbr/SeqNbr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "SndAcctNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/CIApplNbr/individual-demographics": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CIApplNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/CustNbr/email-addresses": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/CustNbr/phone-numbers": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/CustNbr/email-addresses/ResnCde/EffDte": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/CustNbr/phone-numbers/ResnCde": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/CustNbr/phone-numbers/ResnCde/EffDte": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/AcctNbr/datachange": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/addresses": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/DPAcctNbr/keywords": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/DPAcctNbr/holds": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/DPAcctNbr/holds/DPHldIdNbr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/DPAcctNbr/stop-payments": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/DPAcctNbr/stop-payments/DPStpPmtId": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSBC/v2/dp-account-options/AcctTypeKey": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSBC/v2/investment-rates": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSLN/v2/accounts/LNAcctNbr/notes/LNNoteNbr/payments": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "LNAcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/LNAcctNbr/notes/LNNoteNbr/transactions": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "LNAcctNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/external-accounts": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/external-accounts/ApplCde/ApplNbr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "ApplNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "ApplNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/external-accounts/ApplCde/ApplNbr/ContactInd": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "ApplNbr"
+      ]
+    }
+  },
+  "/IBSII/v2/ddm-documents": {
+    "GET": {
+      "query_params": [
+        "SuplTaxID",
+        "AcctIDPrmy",
+        "CustID"
+      ],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/customers/CustNbr/due-diligence-demographics": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/accounts": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/customers/individuals": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDP/v2/account-numbers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDP/v2/accounts": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDP/v2/accounts/AcctNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/dollar-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDP/v2/accounts/AcctNbr/addresses": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/AcctNbr/addresses/DPNmeAndAddrTyp": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSBC/v2/deposit-interest-plans/IntPln": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSBC/v2/deposit-interest-plans": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCB/v2/cards/CBCrdNbr/activation": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CBCrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v2/cards/CBCrdNbr/negative-file": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CBCrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v2/cards/CBCrdNbr/negative-file-ivr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CBCrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v2/cards/CBCrdNbr/pins-ivr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CBCrdNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [
+        "CBPin",
+        "CBOrgnPh"
+      ],
+      "path_params": [
+        "CBCrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v2/cards/CrdNbr/pins": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v2/dda-accounts/DDAAcctNbr/pending-transactions": {
+    "GET": {
+      "query_params": [
+        "CrdNbr"
+      ],
+      "path_params": [
+        "DDAAcctNbr"
+      ]
+    }
+  },
+  "/IBSCB/v2/savings-accounts/SavAcctNbr/pending-transactions": {
+    "GET": {
+      "query_params": [
+        "CrdNbr"
+      ],
+      "path_params": [
+        "SavAcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/transfers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/customers/CICustNbr/profile": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CICustNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSFM/v2/transfer-relationships/FMReceivingAcctNbr/FMApplCde": {
+    "GET": {
+      "query_params": [
+        "FMSubsidiaryApplNbr",
+        "FMRepositionAcctNbr"
+      ],
+      "path_params": [
+        "FMReceivingAcctNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/miscellaneous-accounts": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDO/v2/deposit-origination": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDO/v2/accounts/DPAcctNbr/multiple-keywords": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSCB/v2/card-numbers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCB/v2/cards": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCB/v2/cards/CBCrdNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CBCrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v2/multiple-accounts": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCB/v2/multiple-accounts/CrdNbr/AcctTyp/AcctNbr": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr",
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCB/v2/multiple-accounts/CrdNbr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/prospect-conversion": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/customers/search/customer-number": {
+    "GET": {
+      "query_params": [
+        "CICustNbr",
+        "CICustNbrToStrtSearch"
+      ],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/customers/search/telephone-number": {
+    "GET": {
+      "query_params": [
+        "CIKeyPhNbr",
+        "CICustNbrToStrtSearch"
+      ],
+      "path_params": []
+    }
+  },
+  "/IBSCB/v2/dda-sav-transfers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/account-account-relationships": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/account-account-relationships/ApCd1/AcNbr1/ApCd2/AcNbr2/E1ToE2RlCd/E2ToE1RlCd/CIRlEfDt": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcNbr1",
+        "AcNbr2"
+      ]
+    }
+  },
+  "/IBSCI/v2/customer-account-relationships/ApCd1/ApNbr1": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "ApNbr1"
+      ]
+    }
+  },
+  "/IBSCI/v2/customer-account-relationships": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/customer-account-relationships/ApCd1/ApNbr1/AcNbr2/E1ToE2RlCd/E2ToE1RlCd/CIRlEfDt": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "ApNbr1",
+        "AcNbr2"
+      ]
+    }
+  },
+  "/IBSCI/v2/external-transfer-instructions/ApplCde/ApplNbr": {
+    "GET": {
+      "query_params": [
+        "FocusApplNbr"
+      ],
+      "path_params": [
+        "ApplNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/transfer-relationships/ApplCde/AcctNbr": {
+    "GET": {
+      "query_params": [
+        "RepoPrmySubAcct"
+      ],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/external-ach-transfers/AcctNbr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [
+        "TrsfrAcctNbr",
+        "PrinTrsfrAcctNbr",
+        "HldAcctNbr"
+      ],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSFM/v2/deficit-transfers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSFM/v2/deficit-transfers/FMDPSysReceivingAcctNbr/RcvAcctSysCde/FMDfctTrsfrSeqNbr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "FMDPSysReceivingAcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "FMDPSysReceivingAcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "FMDPSysReceivingAcctNbr"
+      ]
+    }
+  },
+  "/IBSFM/v2/excess-transfers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSFM/v2/excess-transfers/SndAcctNbr/SeqNbr/SndAcctSysCde": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "SndAcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "SndAcctNbr"
+      ]
+    }
+  },
+  "/IBSFM/v2/excess-transfers/SndAcctNbr/SndAcctSysCde": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "SndAcctNbr"
+      ]
+    }
+  },
+  "/IBSSZ/v2/racf-password": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCB/v2/cards/CBCrdNbr/cardholders": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CBCrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v2/cards/CrdNbr/authentication": {
+    "GET": {
+      "query_params": [
+        "PrmyHmPh",
+        "PrmySsn"
+      ],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/address-edit": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/customers/organizations": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/customers/CIApplNbr/organization-demographics": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CIApplNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/relationships/ApCd1/ApN1/ApCd2/AcN2/E1E2RlCd/E2E1RlCd/RlEfDt/RlTyp/RlDemDatEl/demog": {
+    "GET": {
+      "query_params": [
+        "CISubAcctNbr",
+        "CIRltSubAcctNbr"
+      ],
+      "path_params": [
+        "ApN1",
+        "AcN2"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "ApN1",
+        "AcN2"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "ApN1",
+        "AcN2"
+      ]
+    }
+  },
+  "/IBSCI/v2/relationships/demog": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/accounts/AppCde/ApplNbr/name-address": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "ApplNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "ApplNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/multiple-accounts/balances": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDP/v2/accounts/AcctNbr/account-transactions": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/DPAcctNbr/account-transactions/intraday": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/DPAcctNbr/account-transactions/prior-day": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSII/v2/check-images/AccountNumber/FinancialOrganization": {
+    "GET": {
+      "query_params": [
+        "CheckNumber"
+      ],
+      "path_params": [
+        "AccountNumber"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/AcctNbr/transactions/intraday": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/AcctNbr/transactions/non-intraday": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/miscellaneous-accounts/CIAcctApplCde/CIAcctAcctNbr/name-address": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CIAcctAcctNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/accounts/address-edit": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/accounts/ApplCde/ApplNbr": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "ApplNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/ApplCde/ApplNbr/pin/Pin": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "ApplNbr",
+        "Pin"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/CustNbr/pin": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/online-dollar-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDP/v2/multiple-dl-accounts/balances": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/customers/CustNbr/aliases": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/CustNbr/aliases/AlSeqNbr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customer-customer-relationships/CustNbr": {
+    "GET": {
+      "query_params": [
+        "RltCustNbr"
+      ],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customer-customer-relationships": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/customer-customer-relationships/CustNbr/RltCustNbr/EffDte/E1toE2Cde/E2toE1Cde": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr",
+        "RltCustNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/miscellaneous-accounts/ApplCde/AcctNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/AcctNbr/pin/CurPin": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr",
+        "CurPin"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr",
+        "CurPin"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/DPAcctNbr/stop-hold-dates": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/closing-balance-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/customers/CICustNbr/user-defined-profile": {
+    "GET": {
+      "query_params": [
+        "VRUAcctNbr"
+      ],
+      "path_params": [
+        "CICustNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/CICustNbr/related-loan-accounts": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CICustNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/bai-destinations/DPDestCde": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/combined-statement-relationships": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/customers/SurvCustNbr/combined-customer/CombCustNbr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "SurvCustNbr",
+        "CombCustNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/accounts/ApplCde/ApplNbr/product-ids": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "ApplCde",
+        "ApplNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "ApplCde",
+        "ApplNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/accounts/ApplCde/RltAcctNbr/profile": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "RltAcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/AcctNbr/profile": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/profile": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCB/v2/accounts/CBCrdNbr/profile": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CBCrdNbr"
+      ]
+    }
+  },
+  "/IBSSB/v2/accounts/AcctNbr/profile": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/CustNbr/rvm-enrollments": {
+    "GET": {
+      "query_params": [
+        "SubAcctNbr"
+      ],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/accounts/ApplCde/ApplNbr/rvm-enrollments": {
+    "GET": {
+      "query_params": [
+        "SubAcctNbr"
+      ],
+      "path_params": [
+        "ApplCde",
+        "ApplNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/AcctNbr/rvm-enrollments": {
+    "GET": {
+      "query_params": [
+        "SubAcctNbr"
+      ],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/rvm-enrollments": {
+    "GET": {
+      "query_params": [
+        "SubAcctNbr"
+      ],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCB/v2/accounts/CBCrdNbr/rvm-enrollments": {
+    "GET": {
+      "query_params": [
+        "SubAcctNbr"
+      ],
+      "path_params": [
+        "CBCrdNbr"
+      ]
+    }
+  },
+  "/IBSSB/v2/accounts/AcctNbr/rvm-enrollments": {
+    "GET": {
+      "query_params": [
+        "SubAcctNbr"
+      ],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/td-withdrawal-adjustment-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDP/v2/float-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/customers-dp-accounts/CICustNbr/AcctNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CICustNbr",
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSSB/v2/branches/Brnch/vacant-boxes": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSSB/v2/branches/Brnch/boxes/BoxPrfx/BoxNbr/accesses": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSSB/v2/branches/Brnch/boxes/BoxPrfx/BoxNbr/accesses/AccDte": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/combined-statement-relationships/CICustNbr/CICurPriAcctNbr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CICustNbr",
+        "CICurPriAcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "CICustNbr",
+        "CICurPriAcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/AcctNbr/desa-sub-accounts": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/AcctNbr/desa-sub-accounts/Mode": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSRE/v2/plans/PlnNbr/distributions-order": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    },
+    "GET": {
+      "query_params": [
+        "DPAcctNbr",
+        "DPId"
+      ],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/relationship-codes": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/application-codes": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDP/v2/accounts/AcctNbr/bai-destinations": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/AcctNbr/past-cycle-data": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/DPAcctNbr/past-year-data": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/DPAcctNbr/pra-transactions": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/rvm-unenrollments/EnrlmtId": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "EnrlmtId"
+      ]
+    }
+  },
+  "/IBSCI/v2/households/HHNbr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "HHNbr"
+      ]
+    }
+  },
+  "/IBSSB/v2/branches/Brnch/boxes": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSSB/v2/branches/Brnch/boxes/BoxPrfx/BoxNbr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": []
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSSB/v2/branches/Brnch/boxes/BoxPrfx/BoxNbr/owners": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSSB/v2/branches/Brnch/boxes/BoxPrfx/BoxNbr/deputies": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSSB/v2/branches/Brnch/boxes/BoxPrfx/BoxNbr/dollar-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSLN/v2/account-numbers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSLN/v2/accounts/LNAcctNbr/notes/LNNoteNbr/flood-tracking": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "LNAcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/LNAcctNbr/notes/LNNoteNbr/flood-tracking/PrptyNbr/FloodRec": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "LNAcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "LNAcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "LNAcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/keywords": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/LNAcctNbr/manual-fees": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "LNAcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/LNAcctNbr/notes/LNRltNote/manual-fees": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "LNAcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/LNAcctNbr/commitments/LNRltCmmt/manual-fees": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "LNAcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/customers/CICustNbr/dynamic-profile": {
+    "GET": {
+      "query_params": [
+        "VRUAcctNbr"
+      ],
+      "path_params": [
+        "CICustNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/dynamic-profile/fields": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/customers/dynamic-profile/signature": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/addresses/LNNmeAndAddrInd": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/commitments": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/balances": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes-list": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/fees-list": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/fees/PlnNbr/FeeNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/bills": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/memos": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/memos/MemoNbr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/memos": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/memos/MemoNbr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/memos-list": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/memos-list": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/multiple-collateral": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/pins/CurPin": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr",
+        "CurPin"
+      ]
+    }
+  },
+  "/IBSBC/v2/branches": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSBC/v2/officers-list": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/indirect-liabilities": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/balances": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/payoffs": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/automated-fees": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/escrows/LNEscSegNbr": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/commitments/LNCmmtNbr/usages": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/commitments/LNCmmtNbr/usages/RltCmmtUsgAcctNbr/UsgTyp/UsgNbr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr",
+        "RltCmmtUsgAcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr",
+        "RltCmmtUsgAcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/increase": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/payment-schedules": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/payment-schedules/LNPmtSchedTyp/LNEffDte/LNPmtTyp": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/fees/Fee/payments": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/fees/Fee/payments": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/commitments/CmmtNbr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/payment-info": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/pending-note-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/participations": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/fee-waivers": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/fee-waivers": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/cost-of-funds": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/renewals": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/hmda": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSFM/v2/external-transfers/SndAppCde/SndAcctNum/SndSeqNum/LstUpdtTmsp": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "SndAcctNum"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "SndAcctNum"
+      ]
+    }
+  },
+  "/IBSFM/v2/external-transfers/InqAppCde/InqAcctNum/InqSeqNum": {
+    "GET": {
+      "query_params": [
+        "InqSubAcct",
+        "SndAcctNum",
+        "SndSubAcct",
+        "RecAcctNum",
+        "RecSubAcct",
+        "CustNum"
+      ],
+      "path_params": [
+        "InqAcctNum"
+      ]
+    }
+  },
+  "/IBSDP/v2/closing-balance-transactions/DPAcctNbr/DPTDWthdrwlTyp": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSSB/v2/branches/Brnch/boxes/BoxPrfx/BoxNbr/owner-defaults": {
+    "GET": {
+      "query_params": [
+        "ShrtNme",
+        "TaxNbr"
+      ],
+      "path_params": []
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/reversals-immediate": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/reversals-immediate": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/parts/PartNbr/PartSeq/reversals-immediate": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/reversals-pending": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/reversals-pending": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/rate-changes-pending/RelDte/SeqNbr": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/rate-changes-pending/RelDte/SeqNbr": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/parts/PartNbr/PartSeq/rate-changes-pending/RelDte/SeqNbr": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/floor-plan-range/SelKwd/KwdLow/KwdHi/rate-changes-pending": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/floor-plan-range/SelKwd/KwdLow/KwdHi/rate-changes-pending/RelDte/SeqNbr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/rate-changes-immediate": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/rate-changes-immediate": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/parts/PartNbr/PartSeq/rate-changes-immediate": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/payments-nonaccrual": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/user-defined-fields": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/commitments/LNCommtNbr/user-defined-fields": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/payments-chargeoff": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSSZ/v2/ping": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDP/v2/simple-dollar-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/cost-of-funds/rates": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/payment-schedules-list": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/bills/LNBillDte": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/reserves-list": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/reserves/RsrvNbr": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/companies/CoNbr/Category/reserve-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "CoNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/nonaccruals": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/chargeoffs": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/fees-list": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/coupon-orders": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/participations/PartNbr/PartSeq/increases": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/payments": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/payments/LNDueDte/LNBillSeq": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/extensions": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/pins": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/bill-dates": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/commitments/LNCmmtNbr/commitment-participations": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSTE/v2/deposit-dollar-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTE/v2/teller-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTE/v2/teller-totals/OrigBrchNbr/OrigCashDrwrNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTE/v2/branch-totals/OrigBrchNbr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTE/v2/loan-accounts/LNAcctNbr/notes/NoteNbr/payments": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "LNAcctNbr"
+      ]
+    }
+  },
+  "/IBSTE/v2/loan-accounts/LNAcctNbr/notes/NoteNbr/payoffs": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "LNAcctNbr"
+      ]
+    }
+  },
+  "/IBSTE/v2/loan-accounts/LNAcctNbr/notes/NoteNbr/increases": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "LNAcctNbr"
+      ]
+    }
+  },
+  "/IBSTE/v2/deposit-closing-withdrawals/DPAcctNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSTE/v2/cd-withdrawals/DPAcctNbr/DPIdNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSTE/v2/cd-withdrawals": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTE/v2/safeboxes/BrnchNbr/BoxPrfx/BoxNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "BoxNbr"
+      ]
+    }
+  },
+  "/IBSTE/v2/safeboxes/BrnchNbr/BoxPrfx/BoxNbr/payments": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "BoxNbr"
+      ]
+    }
+  },
+  "/IBSTE/v2/savings-retirement-account-withdrawals/DPAcctNbr": {
+    "GET": {
+      "query_params": [
+        "MachineId"
+      ],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSTE/v2/savings-retirement-account-withdrawals": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v2/self-service-relationships": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTE/v2/cd-adjustments": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTE/v2/deposit-account-and-funding": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDP/v2/accounts/AcctNbr/auto-closings": {
+    "GET": {
+      "query_params": [
+        "PrevAcctNbr"
+      ],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSTE/v2/loan-accounts/LNAcctNbr/payments": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "LNAcctNbr"
+      ]
+    }
+  },
+  "/IBSTE/v2/deposit-closing-withdrawals": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSFM/v2/external-transfers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSBC/v2/dp-account-options-list": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSBC/v2/processing-schedules": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTR/v2/transfers/credit-card-payments": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTR/v2/transfers/mortgage-loan-payments": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSSZ/v2/racf-user": {
+    "GET": {
+      "query_params": [
+        "CurPswrd"
+      ],
+      "path_params": []
+    }
+  },
+  "/IBSBC/v2/branches/BrchNbr/detail": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSBC/v2/markets/MktNbr/deposit-interest-plans/IntPlnNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSBC/v2/markets/MktNbr/deposit-market-rate-schedules/IntPlnNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSBC/v2/deposit-rate-schedules": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSBC/v2/deposit-rate-schedules/IntPlnNbr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSBC/v2/index-rates": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSBC/v2/index-rates/RteNbr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSBC/v2/loan-variable-rate-plans": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSBC/v2/loan-note-options": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSBC/v2/markets": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSBC/v2/officers/OfcrNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSBC/v2/officers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCB/v2/cards-print-data": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    },
+    "GET": {
+      "query_params": [
+        "CrdNbr"
+      ],
+      "path_params": []
+    }
+  },
+  "/IBSCB/v2/cards/CrdNbr/negative-file": {
+    "GET": {
+      "query_params": [
+        "CBExpDte",
+        "CBShrtNmeLst",
+        "CBShrtNmeFrst",
+        "CBAvailBal",
+        "SavAvailBal",
+        "PrfxNbr",
+        "PrmyDdaAcctNbr",
+        "PrmySavAcctNbr",
+        "PrmyCrCrdAcctNbr",
+        "AcctNbr"
+      ],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v2/cards/CrdNbr/transactions": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v2/cards/CrdNbr/transactions/detail": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v2/cards/CrdNbr/history-transactions": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v2/cards/CrdNbr/history-transactions/detail": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v2/cards/CrdNbr/pending-transactions": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSII/v2/documents/EntprsArTyp/ArId": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "ArId"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/escrow-interest-plans": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCB/v2/cards/CrdNbr/prepaid-load-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v2/cards/CrdNbr/prepaid-unload-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/consumer-internet-banking-accounts/AcctNbr/profile": {
+    "GET": {
+      "query_params": [
+        "RepoApplNbr",
+        "RepoSubAcctNbr",
+        "RepoLNNoteNbr"
+      ],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/CustNbr/accounts/related-customers": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/CustNbr/maintenance-history-details": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/customers/CustNbr/maintenance-history": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSTE/v2/foreign-currency-rates/StrtCtryCde": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTE/v2/loan-accounts/LNAcctNbr/notes/NoteNbr/receipt-only-payments": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "LNAcctNbr"
+      ]
+    }
+  },
+  "/IBSTE/v2/cd-interest-credits/DPAcctNbr/DPIdNbr": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSTE/v2/deposit-interest-credits/DPAcctNbr": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSTE/v2/savings-bond-redemption-tables/RdmptnYr/RdmptnMth": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCB/v2/cards/CrdNbr/cardholder-address": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCI/v2/accounts/ApplCde/AcctNbr/dynamic-profile": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/AcctNbr/dynamic-inquiry": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDP/v2/accounts/dynamic-inquiry/fields": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDP/v2/accounts/dynamic-inquiry/signature": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDP/v2/check-orders": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSLN/v2/accounts/AcctNbr/notes/NoteNbr/dynamic-inquiry": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLN/v2/accounts/notes/dynamic-inquiry/fields": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSLN/v2/accounts/notes/dynamic-inquiry/signature": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSLO/v4/loan-boarding": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTR/v2/transfers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTR/v2/transfers/certificates-of-deposit": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTR/v2/transfers/customers/CustNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSSM/v1/call-requests": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSSM/v1/call-request-field-information": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSSM/v1/sales-request-field-information": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSSM/v1/customers/IpId/MsgId/notes-requests": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSSM/v1/notes-requests": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSEO/v3/products": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSEO/v3/products-list": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSRE/v2/tax-id/TaxNbr/customer-plans": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "TaxNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [
+        "CustNme",
+        "CustDOB"
+      ],
+      "path_params": [
+        "TaxNbr"
+      ]
+    }
+  },
+  "/IBSRE/v2/tax-id/customer-plans": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSRE/v2/plans/PlnNbr/details": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "PlnNbr"
+      ]
+    }
+  },
+  "/IBSRE/v2/plans/PlnNbr/accounts-detail": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "PlnNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "PlnNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [
+        "TaxNbr"
+      ],
+      "path_params": [
+        "PlnNbr"
+      ]
+    }
+  },
+  "/IBSET/v3/users/UsrId/change-passwords": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "UsrId"
+      ]
+    }
+  },
+  "/IBSET/v3/users/UsrId/reset-passwords": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "UsrId"
+      ]
+    }
+  },
+  "/IBSET/v3/delete-users": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSET/v3/new-users": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSET/v3/users": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSET/v3/multiple-users/status": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSET/v3/users/UsrId": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "UsrId"
+      ]
+    }
+  },
+  "/IBSET/v3/users/get-details": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSET/v3/users/search-details": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSET/v3/roles/search-details": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSET/v3/users/UsrId/roles": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "UsrId"
+      ]
+    }
+  },
+  "/IBSET/v3/users/get-roles": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSET/v3/users/search-roles": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSET/v3/roles": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSET/v3/roles/RoleId": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": []
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSET/v3/roles/RoleId/users": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSET/v3/roles/RoleId/details": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSET/v3/roles/RoleId/entitlements": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": []
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSET/v3/entitleables": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSET/v3/users/UsrId/exception-desktop": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "UsrId"
+      ]
+    }
+  },
+  "/IBSET/v3/users/exception-desktop": {
+    "GET": {
+      "query_params": [
+        "UsrId"
+      ],
+      "path_params": []
+    }
+  },
+  "/IBSCBFRAUD/v3/cards/CrdNbr/fraud-exclusion-codes": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCBFRAUD/v3/cards/CrdNbr/fraud-exclusions": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCBPIN/v3/cards/CrdNbr/pin-reminders": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v3/cards/CrdNbr/personal-limits": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v3/cards/CrdNbr/failure-counters": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCBACCT/v3/dda-accounts/DDAAcctNbr/pending-transactions": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "DDAAcctNbr"
+      ]
+    }
+  },
+  "/IBSCBACCT/v3/savings-accounts/SavAcctNbr/pending-transactions": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "SavAcctNbr"
+      ]
+    }
+  },
+  "/IBSCB/v3/card-numbers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCB/v3/card-reissue": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCB/v3/cards": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCB/v3/cards/CBCrdNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CBCrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v3/cards/CBCrdNbr/activation": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CBCrdNbr"
+      ]
+    }
+  },
+  "/IBSCBNEGFILE/v3/cards/CBCrdNbr/negative-file-ivr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CBCrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v3/card-link-unlink": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCBPIN/v3/cards/CBCrdNbr/pins-ivr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CBCrdNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CBCrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v3/cards/CrdNbr": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v3/cards/CrdNbr/authentication": {
+    "GET": {
+      "query_params": [
+        "PrmySsn",
+        "CrdSecCde",
+        "Pin",
+        "CBExprDte"
+      ],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v3/cards/CrdNbr/card-authentication": {
+    "GET": {
+      "query_params": [
+        "CBDigestPINBlck",
+        "CBDigestCSCBlck"
+      ],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCBHOLDS/v3/cards/CrdNbr/holds": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v3/cards/CrdNbr/ivr-service-charge": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCBNEGFILE/v3/cards/CrdNbr/negative-file": {
+    "GET": {
+      "query_params": [
+        "CBExpDte",
+        "CBShrtNmeLst",
+        "CBShrtNmeFrst",
+        "CBAvailBal",
+        "SavAvailBal",
+        "PrfxNbr",
+        "PrmyDdaAcctNbr",
+        "PrmySavAcctNbr",
+        "PrmyCrCrdAcctNbr",
+        "AcctNbr"
+      ],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCBNEGFILE/v3/cards/CBCrdNbr/negative-file": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CBCrdNbr"
+      ]
+    }
+  },
+  "/IBSCBNEGFILE/v3/cards/CrdNbr/negative-file-replace-card": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v3/cards/CrdNbr/notes": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCBPIN/v3/cards/CrdNbr/pins": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v3/cards/CrdNbr/profile": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v3/cards/CrdNbr/usage-statistics": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCBACCT/v3/cards/external-accounts": {
+    "GET": {
+      "query_params": [
+        "CrdNbr"
+      ],
+      "path_params": []
+    }
+  },
+  "/IBSCB/v3/cards/ivr-service-charge": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCBNEGFILE/v3/cards/negative-file-replace-card": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCBACCT/v3/cards/primary-accounts": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCB/v3/cards/replace": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCBSRH/v3/cards/search": {
+    "GET": {
+      "query_params": [
+        "SearchCriteria1",
+        "SearchCriteria2"
+      ],
+      "path_params": []
+    }
+  },
+  "/IBSCBACCT/v3/dda-accounts/AcctNbr/cards": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCBACCT/v3/multiple-accounts": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCBACCT/v3/multiple-accounts/CrdNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCBACCT/v3/multiple-accounts/CrdNbr/AcctTyp/AcctNbr": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr",
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCBACCT/v3/multiple-accounts/CrdNbr/balances": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v3/pinless-card-reissue": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCBPREFIX/v3/prefixes/fee-info": {
+    "GET": {
+      "query_params": [
+        "PrfxNbr",
+        "CrdNbr"
+      ],
+      "path_params": []
+    }
+  },
+  "/IBSCBACCT/v3/savings-accounts/AcctNbr/cards": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSRE/v2/plans/PlnNbr/accounts-list": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "PlnNbr"
+      ]
+    }
+  },
+  "/IBSTE/v2/ctr-conductor-information": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTE/v2/deposit-account-information/DPAcctNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSCICUSTDEM/v3/customers/CIApplNbr/individual-demographics": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CIApplNbr"
+      ]
+    }
+  },
+  "/IBSCICUSTDEM/v3/customers/CIApplNbr/organization-demographics": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CIApplNbr"
+      ]
+    }
+  },
+  "/IBSDPACCT/v3/accounts/AcctNbr/balances": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDPACCT/v3/accounts/AcctNbr/dynamic-inquiry": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDPACCT/v3/accounts/AcctNbr/certificates-of-deposit/TDId/renegotiation": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDPTran/v3/accounts/AcctNbr/account-transactions": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDPTran/v3/accounts/DPAcctNbr/pra-transactions": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSCIMISCACCT/v3/miscellaneous-accounts/ApplCde/AcctNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLNACCT/v3/accounts/AcctNbr/dynamic-inquiry": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLNACCT/v3/accounts/dynamic-inquiry/fields": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSLNACCT/v3/accounts/dynamic-inquiry/signature": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCICUSTDEM/v3/customers/CustNbr/aliases": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSCICUSTDEM/v3/customers/CICustNbr/name-address": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CICustNbr"
+      ]
+    }
+  },
+  "/IBSCIACCTDEM/v3/accounts/AppCde/ApplNbr/name-address": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "ApplNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "ApplNbr"
+      ]
+    }
+  },
+  "/IBSLNPAYOFF/v3/accounts/AcctNbr/notes/NoteNbr/payoff-quotes": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCIRLT/v3/customers/CICustNbr/dynamic-profile": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CICustNbr"
+      ]
+    }
+  },
+  "/IBSCIRLT/v3/customers/dynamic-profile/fields": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCIRLT/v3/customers/dynamic-profile/signature": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSSB/v3/branches/Brnch/boxes/BoxPrfx/BoxNbr/owners": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPACCT/v3/accounts/dynamic-inquiry/fields": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPACCT/v3/accounts/dynamic-inquiry/signature": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSLNNOTE/v3/accounts/notes/dynamic-inquiry/fields": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSLNNOTE/v3/accounts/notes/dynamic-inquiry/signature": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPTran/v3/closing-balance-transactions/DPAcctNbr/DPTDWthdrwlTyp": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSDPTran/v3/closing-balance-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPTran/v3/dollar-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPTran/v3/float-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPTran/v3/td-withdrawal-adjustment-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPTran/v3/td-withdrawal-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPACCT/v3/accounts/statement-requests": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDO/v3/accounts/DPAcctNbr/multiple-keywords": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSDPHOLD/v3/accounts/DPAcctNbr/holds": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSCISRH/v3/customers/search/customer-number": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCISRH/v3/customers/search/name-address": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCISRH/v3/customers/search/taxnbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCISRH/v3/customers/search/telephone-number": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSLNTRAN/v3/accounts/LNAcctNbr/notes/LNNoteNbr/transactions": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "LNAcctNbr"
+      ]
+    }
+  },
+  "/IBSLNNOTE/v3/accounts/AcctNbr/notes/NoteNbr/dynamic-inquiry": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDLB/v1/dynamic-loan-boarding": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSLNCMMT/v3/accounts/AcctNbr/commitments": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLNCMMT/v3/accounts/LNAcctNbr/commitments/LNCmmtNbr/usages": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "LNAcctNbr"
+      ]
+    }
+  },
+  "/IBSCICUSTDEM/v3/customers/CustNbr/phone-numbers": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSDPDEM/v3/accounts/AcctNbr/addresses": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSEXCP/v1/accounts/AccountNumber/overdrafts": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AccountNumber"
+      ]
+    }
+  },
+  "/IBSCI/v3/customers/organizations": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPKEY/v3/accounts/DPAcctNbr/keywords": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSSCP/v1/customer-single-commit": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSRVM/v1/enrollments/EnrlmtID": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "EnrlmtID"
+      ]
+    }
+  },
+  "/IBSRVM/v1/enrollments/EnrlmtID/packages/PkgID/tiers/TierID/evaluation": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "EnrlmtID"
+      ]
+    }
+  },
+  "/IBSRVM/v1/packages/PkgID/tiers/PrcsOpt": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "PkgID"
+      ]
+    }
+  },
+  "/IBSRE/v2/contributions-history": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSRE/v2/distributions-history": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCI/v3/customers/individuals": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSFM/v3/transfer-relationships/FMReceivingAcctNbr/FMApplCde": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "FMReceivingAcctNbr"
+      ]
+    }
+  },
+  "/IBSFM/v3/immediate-transfers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPACCT/v3/accounts/AcctNbr/past-cycle-data": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDPACCT/v3/accounts/DPAcctNbr/past-year-data": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSTE/v2/dda-sav-deposit-with-reg-cc-hold-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTE/v2/dda-sav-transfers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTE/v2/dda-sav-transfers-reversal": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCIRLT/v3/customer-account-future-dated-name-addresses/ApplCde/ApplNbr/EffDte": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "ApplCde"
+      ]
+    }
+  },
+  "/IBSCICUSTDEM/v3/customers/CustNbr/email-addresses": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSCIRLT/v3/beneficiary-account-relationships": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCIRLT/v3/beneficiary-account-relationships/ApplCde/AcctNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCBACCT/v3/cards/CrdNbr/prepaid-credit-adjustments": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCBACCT/v3/cards/CrdNbr/prepaid-debit-adjustments": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCBACCT/v3/cards/CrdNbr/cancelled-payments": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSDO/v3/deposit-origination": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSRE/v2/plans/PlnNbr/beneficiaries": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "PlnNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "PlnNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "PlnNbr"
+      ]
+    }
+  },
+  "/IBSRE/v2/plans/PlnNbr/delete-beneficiaries": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "PlnNbr"
+      ]
+    }
+  },
+  "/IBSCIRLT/v3/accounts": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCBALERT/v3/cards/alert-preferences": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCBALERT/v3/cards/CrdNbr/alert-preferences": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCIRLT/v3/account-customer-relationships": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPACCT/v3/accounts/AcctNbr/certificates-of-deposit": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCBPREFIX/v3/prefixes/PrfxNum/issuer-ids": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "PrfxNum"
+      ]
+    }
+  },
+  "/IBSDPACCT/v3/accounts/AcctNbr/overdraft-fees-history": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "IBSEXCP/v1/accounts/AccountNumber/rolling-twelve-months": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AccountNumber"
+      ]
+    }
+  },
+  "/IBSDPHOLD/v3/accounts/DPAcctNbr/stop-payments": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "DPAcctNbr"
+      ]
+    }
+  },
+  "/IBSDPTran/v3/simple-dollar-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTR/v3/transfers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTR/v3/transfers/credit-card-payments": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTR/v3/transfers/mortgage-loan-payments": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCIRLT/v3/customer-customer-relationships/CustNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSCIRLT/v3/customer-customer-relationships": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCIRLT/v3/customer-customer-relationships/CustNbr/RltCustNbr/E1toE2Cde/E2toE1Cde": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSRE/v2/plans/PlnNbr/distribution-options": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "PlnNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "PlnNbr"
+      ]
+    }
+  },
+  "/IBSCIACCTDEM/v3/related-accounts-address": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPMAINT/v3/accounts/AcctNbr/miscellaneous-service-charges/MiscServChrgDte/MiscServChrgAmt/TxnCde": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDPMAINT/v3/accounts/AcctNbr/miscellaneous-service-charges": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCICUSTSTMT/v3/customers/CICustNbr/statements": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CICustNbr"
+      ]
+    }
+  },
+  "/IBSRVM/v1/enrollments/EnrlmtID/evaluation-history": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "EnrlmtID"
+      ]
+    }
+  },
+  "/IBSDPTR/v3/external-ach-transfers/AcctNbr": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDPTR/v3/transfers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSFM/v3/collection-disbursement-transfers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSFM/v3/collection-disbursement-transfers/FMColSystem/FMColPriAcct/FMColSeq": {
+    "PUT": {
+      "query_params": [
+        "FMColPriAcct"
+      ],
+      "path_params": [
+        "FMColSystem"
+      ]
+    },
+    "GET": {
+      "query_params": [
+        "FMColPriAcct"
+      ],
+      "path_params": [
+        "FMColSystem"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "FMColPriAcct"
+      ]
+    }
+  },
+  "/IBSCICUSTDEM/v3/customers/CIApplNbr/addresses": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CIApplNbr"
+      ]
+    }
+  },
+  "/IBSDDB/v1/dynamic-deposit-boarding": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPTran/v3/online-dollar-transactions-predefined-auto-override": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPTran/v3/single-simple-dollar-transaction": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCB/v3/cards/card-authentication-encrypted": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSLNNOTE/v3/accounts/AcctNbr/notes-list": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSBC/v2/deposit-interest-plans/realtime": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPTran/v3/health-savings-account-transactions/hsa-code": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCIRLT/v3/beneficiary-account-relationships/ApplCde/AcctNbr/dynamic-inquiry": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCIRLT/v3/beneficiary-account-relationships/dynamic-inquiry/fields": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCIRLT/v3/beneficiary-account-relationships/dynamic-inquiry/signature": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCICUSTDEM/v3/households/AcctNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCIMISCACCT/v3/miscellaneous-accounts/ApplCde/AcctNbr/name-address": {
+    "GET": {
+      "query_params": [
+        "AcctNbr"
+      ],
+      "path_params": [
+        "ApplCde"
+      ]
+    }
+  },
+  "/IBSCICUSTDEM/v3/customers/CIApplNbr/future-addresses": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "CIApplNbr"
+      ]
+    }
+  },
+  "/IBSDPACCT/v3/health-savings-accounts/AcctNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDPACCT/v3/accounts/AcctNbr/reopen": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLNUD/v3/accounts/acctNbr/commitments/lnCommtNbr/user-defined-fields": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "acctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "acctNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "acctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "acctNbr"
+      ]
+    }
+  },
+  "/IBSLNUD/v3/accounts/acctNbr/notes/noteNbr/user-defined-fields": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "acctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "acctNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "acctNbr"
+      ]
+    },
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "acctNbr"
+      ]
+    }
+  },
+  "/IBSDPDEM/v3/accounts/AcctNbr/addresses/DPNmeAndAddrTyp": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCIRLT/v3/customers/CustNbr/accounts/related-customers": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSLNNOTE/v3/accounts/AcctNbr/notes": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCIRLT/v3/accounts/beneficiary-account-relationships": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSSCP/v1/deposit-single-commit": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPACCT/v3/accounts/AcctNbr/calculated-next-cycle-date": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCIRLT/v3/accounts/ApplCde/RltAcctNbr/profile": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "RltAcctNbr"
+      ]
+    }
+  },
+  "/IBSCB/v3/cardbase-single-commit": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPACCT/v3/accounts/AcctNbr/auto-closings": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCIRLT/v3/customers/custNbr/balance-summary": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "custNbr"
+      ]
+    }
+  },
+  "/IBSCIRLT/v3/households/householdNbr/balance-summary": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "householdNbr"
+      ]
+    }
+  },
+  "/IBSCB/v3/plan/PlanNumber/service-charge": {
+    "GET": {
+      "query_params": [
+        "PlanEffectiveDate"
+      ],
+      "path_params": [
+        "PlanNumber"
+      ]
+    }
+  },
+  "/IBSCB/v3/plan/PlanNumber/waive-service-charge": {
+    "GET": {
+      "query_params": [
+        "PlanEffectiveDate"
+      ],
+      "path_params": [
+        "PlanNumber"
+      ]
+    }
+  },
+  "/IBSCIRLT/v3/customers/CustNbr/profile": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSDPACCT/v3/accounts/AcctNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDPACCT/v3/accounts/AcctNbr/bai-destinations": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSRE/v2/plans/PlnNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCB/v3/cards/CrdNbr/statements": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCBACCT/v3/cards/CrdNbr/history-transactions/detail": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCIRLT/v3/consumer-internet-banking-accounts/AcctNbr/profile": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSCIRLT/v3/customers/CustNbr/related-accounts": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CustNbr"
+      ]
+    }
+  },
+  "/IBSCIRLT/v3/account-account-relationships": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDP/v2/accounts/statement-requests": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSSCP/v3/customer-single-commit": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPTran/v3/online-dollar-transactions": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPACCT/v3/account-numbers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPACCT/v3/accounts": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCIRLT/v3/account-account-relationships/ApCd1/AcNbr1/ApCd2/AcNbr2/E1ToE2RlCd/E2ToE1RlCd/CIRlEfDt": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcNbr1",
+        "AcNbr2"
+      ]
+    }
+  },
+  "/IBSCIRLT/v3/accounts/ApplCde/ApplNbr": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "ApplNbr"
+      ]
+    }
+  },
+  "/IBSCIRLT/v3/customer-account-relationships/ApCd1/ApNbr1/AcNbr2/E1ToE2RlCd/E2ToE1RlCd/CIRlEfDt": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "ApNbr1",
+        "AcNbr2"
+      ]
+    }
+  },
+  "/IBSLNNOTE/v3/accounts/AcctNbr/notes/NoteNbr/holds": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSVE/v3/account-validations/VESeqNbr": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "VESeqNbr"
+      ]
+    },
+    "GET": {
+      "query_params": [
+        "CustID"
+      ],
+      "path_params": [
+        "VESeqNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "VESeqNbr"
+      ]
+    }
+  },
+  "/IBSCBACCT/v3/cards/CrdNbr/transactions": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCBACCT/v3/cards/CrdNbr/transactions/detail": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CrdNbr"
+      ]
+    }
+  },
+  "/IBSCIRLT/v3/customers/CICustNbr/user-defined-profile": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "CICustNbr"
+      ]
+    }
+  },
+  "/IBSDP1/v1/accounts/AcctNbr/balances": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSDP1/v1/accounts/AcctNbr/transactions": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSFM/v3/deficit-transfers/FMDPSysReceivingAcctNbr/RcvAcctSysCde/FMDfctTrsfrSeqNbr": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "FMDPSysReceivingAcctNbr"
+      ]
+    }
+  },
+  "/IBSLC/v3/accounts/AcctNbr/collaterals": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSSB/v3/branches/brnch/boxes/boxPrfx/boxNbr/accesses": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSSB/v3/branches/Brnch/vacant-boxes": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTE/v2/ctr-conductor-information/TINType/TIN": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "TIN"
+      ]
+    }
+  },
+  "/IBSVE/v3/account-validations-customers/CustID": {
+    "GET": {
+      "query_params": [
+        "VESeqNbr"
+      ],
+      "path_params": [
+        "CustID"
+      ]
+    }
+  },
+  "/IBSVE/v3/banks/ABARoutingNumber": {
+    "GET": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCB/v3/cards/encrypted": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCIRLT/v3/customer-account-relationships": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDP1/v1/transfers": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPACCT/v3/multiple-accounts/balances": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSDPACCT/v3/multiple-dl-accounts/balances": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSLC/v3/accounts/AcctNbr/collaterals/CollNbr/relationship": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLNNOTE/v3/accounts/LNHldAcctNbr/notes/LNHldNoteNbr/holds": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "LNHldAcctNbr"
+      ]
+    }
+  },
+  "/IBSLNTRAN/v3/accounts/AcctNbr/notes/NoteNbr/disbursement": {
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLO/v2/loan-boarding": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSLO/v3/loan-boarding": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTE/v2/monetary-purchaser-information": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSTE/v2/multi-cashier-checks": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSVE/v3/account-validations": {
+    "POST": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCBPIN/v3/cards/pins/encrypted": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCIRLT/v3/customer-account-relationships/ApCd1/ApNbr1": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "ApNbr1"
+      ]
+    }
+  },
+  "/IBSDPMAINT/v3/accounts/AcctNbr/datachange": {
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSET/v3/users/UsrId/processing-groups": {
+    "PUT": {
+      "query_params": [],
+      "path_params": []
+    }
+  },
+  "/IBSCIRLT/v3/households/acctNbr/profile": {
+    "GET": {
+      "query_params": [],
+      "path_params": [
+        "acctNbr"
+      ]
+    }
+  },
+  "/IBSLNCMMT/v3/accounts/AcctNbr/commitments/CmmtNbr/community-reinvestment-act": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  },
+  "/IBSLNNOTE/v3/accounts/AcctNbr/notes/NoteNbr/community-reinvestment-act": {
+    "DELETE": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "POST": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    },
+    "PUT": {
+      "query_params": [],
+      "path_params": [
+        "AcctNbr"
+      ]
+    }
+  }
+}
